@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:background="@color/color8">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/desc"
+            android:layout_width="match_parent"
+            android:layout_height="330dp"
+            android:layout_marginTop="230dp"
+            android:fontFamily="@font/jandamanatee"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/desc"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btnMulai"
+            android:layout_width="180dp"
+            android:text="Ayo Belajar!"
+            android:textSize="20sp"
+            android:layout_height="50dp"
+            android:layout_marginTop="570dp"
+            android:layout_marginStart="120dp"
+            android:fontFamily="@font/hey_comic"
+            android:textColor="@color/color2"
+            android:backgroundTint="@color/color6"/>
+
+        <Button
+            android:id="@+id/btnProfile"
+            android:layout_width="180dp"
+            android:text="Profile"
+            android:textSize="20sp"
+            android:layout_height="50dp"
+            android:layout_marginTop="620dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:gravity="center_horizontal"
+            android:layout_marginStart="200dp"
+            android:fontFamily="@font/hey_comic"
+            android:textColor="@color/color2"
+            android:backgroundTint="@color/color6"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/logoapk"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"/>
+
+
+    </RelativeLayout>
+
+</ScrollView>

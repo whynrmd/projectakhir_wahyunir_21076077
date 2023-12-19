@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EdukasiHewanVertebrata"
+        tools:targetApi="31">
+        <activity
+            android:name=".ActivityOrangUtan"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityLumbaLumba"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityPaus"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityAnjing"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityKucing"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityZebra"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityUburUbur"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityIkanCupang"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityIkanOscar"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityIkanMas"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityBebek"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityFlamingo"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityMerpati"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityPinguin"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityDiplocaulus"
+            android:exported="false" />
+        <activity
+            android:name=".ActivitySalamander"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityCaecilian"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityAxolotl"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityKuraKura"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityMenuBurung"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityMenuReptil"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityMenuAmfibi"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityMenuIkan"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityMenuMamalia"
+            android:exported="false" />
+        <activity
+            android:name=".KategoriActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityUlar"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityBiawak"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityBuaya"
+            android:exported="false" />
+        <activity
+            android:name=".MenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditProfileActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="true" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

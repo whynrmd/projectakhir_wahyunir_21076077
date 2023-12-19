@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="40dp"
+    tools:context=".MenuActivity"
+    android:background="@color/color8">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnBuaya"
+                style="@style/HewanButton"
+                android:text="Buaya"/>
+
+            <Button
+                android:id="@+id/btnBiawak"
+                style="@style/HewanButton"
+                android:text="Biawak" />
+
+            <Button
+                android:id="@+id/btnUlar"
+                style="@style/HewanButton"
+                android:text="Ular" />
+
+            <Button
+                android:id="@+id/btnKomodo"
+                style="@style/HewanButton"
+                android:text="Komodo" />
+
+            <Button
+                android:id="@+id/btnTuatara"
+                style="@style/HewanButton"
+                android:text="Tuatara" />
+
+            <Button
+                android:id="@+id/btnBunglon"
+                style="@style/HewanButton"
+                android:text="Bunglon" />
+
+            <Button
+                android:id="@+id/btnKura"
+                style="@style/HewanButton"
+                android:text="Kura - Kura" />
+
+            <Button
+                android:id="@+id/btnPenyu"
+                style="@style/HewanButton"
+                android:text="Penyu"/>
+
+            <Button
+                android:id="@+id/btnHiu"
+                style="@style/HewanButton"
+                android:text="Hiu" />
+
+            <Button
+                android:id="@+id/btnSinga"
+                style="@style/HewanButton"
+                android:text="Singa" />
+
+            <Button
+                android:id="@+id/btnSalamander"
+                style="@style/HewanButton"
+                android:text="Salamander" />
+
+            <Button
+                android:id="@+id/btnCaecilian"
+                style="@style/HewanButton"
+                android:text="Caecilian" />
+
+            <Button
+                android:id="@+id/btnMonyet"
+                style="@style/HewanButton"
+                android:text="Monyet" />
+
+            <Button
+                android:id="@+id/btnKampret"
+                style="@style/HewanButton"
+                android:text="Kampret" />
+
+            <Button
+                android:id="@+id/btn5"
+                style="@style/HewanButton"
+                android:text="Singa" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

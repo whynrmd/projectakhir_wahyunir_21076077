@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityMenuMamalia"
+    android:background="@color/color8">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/mamalia_txt1"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Mamalia"
+            android:textSize="25dp"
+            android:background="@drawable/button_shape"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:fontFamily="@font/nice_sugar"
+            android:layout_marginTop="30dp" />
+
+        <ImageView
+            android:id="@+id/mamalia_gambar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mamalia_txt1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background_header"
+            android:src="@drawable/zebra2"
+            tools:ignore="SpeakableTextPresentCheck"/>
+
+        <Button
+            android:id="@+id/mamalia_txt2"
+            android:layout_width="265dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mamalia_gambar1"
+            android:text="Zebra"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/color7"
+            android:fontFamily="@font/hey_comic"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:id="@+id/mamalia_gambar2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mamalia_txt2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background_header"
+            android:src="@drawable/kucing2"
+            tools:ignore="SpeakableTextPresentCheck"/>
+
+        <Button
+            android:id="@+id/mamalia_txt3"
+            android:layout_width="265dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mamalia_gambar2"
+            android:text="Kucing"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/color7"
+            android:fontFamily="@font/hey_comic"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:id="@+id/mamalia_gambar3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mamalia_txt3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background_header"
+            android:src="@drawable/anjing2"
+            tools:ignore="SpeakableTextPresentCheck"/>
+
+        <Button
+            android:id="@+id/mamalia_txt4"
+            android:layout_width="265dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mamalia_gambar3"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/color7"
+            android:fontFamily="@font/hey_comic"
+            android:text="Anjing"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/mamalia_gambar4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mamalia_txt4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background_header"
+            android:src="@drawable/paus2"
+            tools:ignore="SpeakableTextPresentCheck"/>
+
+        <Button
+            android:id="@+id/mamalia_txt5"
+            android:layout_width="265dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mamalia_gambar4"
+            android:text="Paus"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/color7"
+            android:fontFamily="@font/hey_comic"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:id="@+id/mamalia_gambar5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mamalia_txt5"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background_header"
+            android:src="@drawable/lumba2"
+            tools:ignore="SpeakableTextPresentCheck"/>
+
+        <Button
+            android:id="@+id/mamalia_txt6"
+            android:layout_width="265dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mamalia_gambar5"
+            android:text="Lumba Lumba"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/color7"
+            android:fontFamily="@font/hey_comic"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:id="@+id/mamalia_gambar6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mamalia_txt6"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background_header"
+            android:src="@drawable/orangutan2"
+            tools:ignore="SpeakableTextPresentCheck"/>
+
+        <Button
+            android:id="@+id/mamalia_txt7"
+            android:layout_width="265dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mamalia_gambar6"
+            android:text="Orang Utan"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/color7"
+            android:fontFamily="@font/hey_comic"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+</ScrollView>

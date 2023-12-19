@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:background="@color/color8">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logoapk"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:id="@+id/R_img1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selamat Datang!"
+        android:layout_below="@id/R_img1"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/nice_sugar"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:id="@+id/R_txt1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/R_txt1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/nice_sugar"
+        android:text="Ayo daftar!"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        tools:ignore="TextSizeCheck" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/R_txt1"
+        android:padding="50dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/ly_1">
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/button_shape"
+            android:hint="Username"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/edt_username"
+            android:fontFamily="sans-serif"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/button_shape"
+            android:hint="Email"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/edt_email"
+            android:fontFamily="sans-serif"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/button_shape"
+            android:paddingLeft="20dp"
+            android:hint="Password"
+            android:layout_marginTop="20dp"
+            android:id="@+id/edt_password"
+            android:fontFamily="sans-serif"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="REGISTER"
+            android:textSize="25sp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="25dp"
+            android:width="300dp"
+            android:background="@drawable/button_shape"
+            android:fontFamily="@font/glossy"
+            android:textColor="@color/white"
+            android:id="@+id/R_btn1"/>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

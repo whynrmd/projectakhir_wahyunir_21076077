@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityMenuReptil"
+    android:background="@color/color8">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/reptil_txt1"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Reptil"
+            android:textSize="20sp"
+            android:background="@drawable/button_shape"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:fontFamily="@font/nice_sugar"
+            android:layout_marginTop="30dp" />
+
+        <ImageView
+            android:id="@+id/reptil_gambar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/reptil_txt1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background_header"
+            android:src="@drawable/buaya2"
+            tools:ignore="SpeakableTextPresentCheck"/>
+
+        <Button
+            android:id="@+id/reptil_txt2"
+            android:layout_width="265dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/reptil_gambar1"
+            android:text="Buaya"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/color7"
+            android:fontFamily="@font/hey_comic"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:id="@+id/reptil_gambar2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/reptil_txt2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background_header"
+            android:src="@drawable/ular2"
+            tools:ignore="SpeakableTextPresentCheck"/>
+
+        <Button
+            android:id="@+id/reptil_txt3"
+            android:layout_width="265dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/reptil_gambar2"
+            android:text="Ular"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/color7"
+            android:fontFamily="@font/hey_comic"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:id="@+id/reptil_gambar3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/reptil_txt3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background_header"
+            android:src="@drawable/biawak2"
+            tools:ignore="SpeakableTextPresentCheck"/>
+        <Button
+            android:id="@+id/reptil_txt4"
+            android:layout_width="265dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/reptil_gambar3"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/color7"
+            android:fontFamily="@font/hey_comic"
+            android:text="Biawak"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/reptil_gambar4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/reptil_txt4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background_header"
+            android:src="@drawable/kura2"
+            tools:ignore="SpeakableTextPresentCheck"/>
+
+        <Button
+            android:id="@+id/reptil_txt5"
+            android:layout_width="265dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/reptil_gambar4"
+            android:text="Kura - Kura"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/color7"
+            android:fontFamily="@font/hey_comic"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+</ScrollView>

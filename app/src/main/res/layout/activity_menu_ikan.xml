@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityMenuIkan"
+    android:background="@color/color8">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/ikan_txt1"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Ikan"
+            android:textSize="25dp"
+            android:background="@drawable/button_shape"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:fontFamily="@font/nice_sugar"
+            android:layout_marginTop="30dp" />
+
+        <ImageView
+            android:id="@+id/ikan_gambar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ikan_txt1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background_header"
+            android:src="@drawable/ikanmas"
+            tools:ignore="SpeakableTextPresentCheck"/>
+
+        <Button
+            android:id="@+id/ikan_txt2"
+            android:layout_width="265dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ikan_gambar1"
+            android:text="Ikan Mas"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/color7"
+            android:fontFamily="@font/hey_comic"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:id="@+id/ikan_gambar2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ikan_txt2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background_header"
+            android:src="@drawable/ikanoscar"
+            tools:ignore="SpeakableTextPresentCheck"/>
+
+        <Button
+            android:id="@+id/ikan_txt3"
+            android:layout_width="265dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ikan_gambar2"
+            android:text="Ikan Oscar"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/color7"
+            android:fontFamily="@font/hey_comic"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:id="@+id/ikan_gambar3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ikan_txt3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background_header"
+            android:src="@drawable/ikancupang"
+            tools:ignore="SpeakableTextPresentCheck"/>
+
+        <Button
+            android:id="@+id/ikan_txt4"
+            android:layout_width="265dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ikan_gambar3"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/color7"
+            android:fontFamily="@font/hey_comic"
+            android:text="Ikan Cupang"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/ikan_gambar4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ikan_txt4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background_header"
+            android:src="@drawable/ubur"
+            tools:ignore="SpeakableTextPresentCheck"/>
+
+        <Button
+            android:id="@+id/ikan_txt5"
+            android:layout_width="265dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ikan_gambar4"
+            android:text="Ubur Ubur"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/color7"
+            android:fontFamily="@font/hey_comic"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+</ScrollView>
